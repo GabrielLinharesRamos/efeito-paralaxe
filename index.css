@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: gray;
+}
+
+#imagem1,#imagem2,#imagem3,#imagem4,#imagem5{
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin:25px 0;
+    position: relative;
+}
+
+#imagem1{
+    background-image: url("imagens-utilizadas/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    margin-top: 0;
+}
+
+#imagem2{
+    background-image: url("imagens-utilizadas/holanda.jpg");
+}
+
+#imagem3{
+    background-image: url("imagens-utilizadas/34328-3840x2160-desktop-4k-germany-background-photo.jpg");
+}
+
+#imagem4{
+    background-image: url("imagens-utilizadas/69dbf46221088aa3316e35a711895c08.jpeg");
+}  
+
+#imagem5{
+    background-image: url("imagens-utilizadas/franca.jpg");
+}
+
+.container{
+    position: absolute;
+	top: 47%;
+	width: 100%;
+	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+p{
+    color: gray;
+    font-size: 20px;
+    margin: 15px 100px;
+    letter-spacing: 1px;
+    
+}
